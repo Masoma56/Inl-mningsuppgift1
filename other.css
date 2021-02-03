@@ -1,0 +1,73 @@
+
+body{
+    background-image: url("./flower.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    margin: 0;
+    padding: 0; 
+}
+
+h1{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+
+nav{
+    background-color:wheat;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+a{
+    color:black;
+    text-shadow: 1px 1px;
+    font-weight:800;  
+    text-decoration: none;
+    transition:0.3s;
+    padding: 1%;
+}
+
+a:hover{
+    background-color:black;
+    color:wheat;
+    font-size:25px;
+    transition:0.3s;
+}
+
+h2{
+    text-align: center;
+    color:black ;
+}
+
+ iframe{
+     justify-self:center;
+     align-self:center;
+ }
+
+ .div1{
+    display: grid;
+    grid-column: 6/11;
+    grid-row: 6/11; 
+}
+
+@media only screen and (max-width:1000px){
+    nav{
+        background-color:wheat;
+        width: 50%;
+        margin-right: 0;
+        margin-left: 90px;
+        text-align: center;
+    } 
+}
+
+footer{
+    background-color:wheat;
+    grid-column: 1/11;
+    grid-row: 11/11;
+    text-align: center; 
+}
+
+

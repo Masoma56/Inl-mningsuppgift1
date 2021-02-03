@@ -1,0 +1,68 @@
+
+body{
+    background-image: url("./flower.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+
+nav{
+    background-color:wheat;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+a{
+    color:black;
+    text-shadow: 1px 1px;
+    font-weight:800;  
+    text-decoration: none;
+    transition:0.3s;
+    padding: 1%;
+
+}
+
+a:hover{
+    color:wheat;
+    font-size:25px;
+    transition:0.3s;
+    background-color:black;
+}
+
+h2, p{
+    margin-left: 60px;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    font-size: 20px;
+}
+
+@media only screen and (max-width:1000px){
+    nav{
+        background-color:wheat;
+        width: 50%;
+        margin-right: 0;
+        margin-left: 90px;
+        text-align: center;
+    } 
+}
+
+footer{
+    background-color:wheat;
+   
+    text-align: center; 
+}
+

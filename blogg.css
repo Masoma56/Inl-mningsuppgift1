@@ -1,0 +1,136 @@
+
+body{
+    background-image: url("./flower.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: (20, 1fr);
+    grid-template-rows: (20, 1fr);
+    height: 100vh;
+}
+
+.heading{
+    grid-column: 1/20;
+    grid-row: 1/1;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.navigation{
+    grid-column: 1/20;
+    grid-row: 2/2;
+    background-color:wheat;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px;
+    font-weight:800;  
+    text-decoration: none;
+    transition:0.3s;
+    padding: 1%;
+}
+
+a:hover{
+    color: wheat;
+    font-size:25px;
+    transition:0.3s;
+    background-color:black;
+}
+
+.blogg1{
+    background-color: lightsteelblue;
+    display: grid;
+    grid-column: 1/10;
+    grid-row: 3/3; 
+}
+
+.blogg2{
+    background-color: lightpink;
+    display: grid;
+    grid-column: 10/20;
+    grid-row: 3/3;
+}
+
+.blogg3{
+    background-color: white;
+    display: grid;
+    grid-column: 1/10;
+    grid-row: 4/4;
+}
+
+.blogg4{
+    background-color: lightskyblue;
+    display: grid;
+    grid-column: 10/20;
+    grid-row: 4/4;
+}
+
+@media only screen and (max-width:1000px){
+    .heading{
+        display: grid;
+       grid-column: 1/20;
+       grid-row: 1/1;
+       padding:5% ;
+       }
+       .navigation{
+        display: grid;
+        grid-column: 1/20;
+        grid-row: 2/2;
+        padding:5% ;
+        background-color:wheat;
+        width: 50%;
+        margin-right: 0;
+        margin-left: 90px;
+        text-align: center;
+        }
+
+    .blogg1{
+    display: grid;
+    grid-column: 1/20;
+    grid-row: 3/3;
+    }
+
+    .blogg2{
+    display: grid;
+    grid-column: 1/20;
+    grid-row: 4/4;
+    }
+
+    .blogg3{
+     display: grid;
+    grid-column: 1/20;
+    grid-row: 5/5;
+    }
+
+    .blogg4{
+    display: grid;
+    grid-column: 1/20;
+    grid-row: 6/6;
+    } 
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color:wheat;
+    grid-column: 1/20;
+    grid-row: 20/20;
+    text-align: center;
+}
